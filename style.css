@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
+
+body {
+    background-color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+/* navigasi bar  */
+.navbar{
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #2b2b2b;
+    box-shadow: 0 0 10px 0  #000000;
+}
+.contnav {
+    font-family: "Poppins", sans-serif;    
+    width: 100%;
+    padding: 15px 15%;
+    color: black;
+}
+.contnav a{
+    color: white;
+    text-decoration: none;
+}
+.navrig {
+    float: right;
+}
+.navrig ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.navrig li {
+    display: inline;
+    padding: 0 15px 0 15px;
+}
+.navrig span.no {
+    pointer-events: none;
+    color: whitesmoke;
+}
+.navrig a:hover {
+    background-color: #ddd;
+    color: black;
+    padding: 10px;
+    border-radius: 15px;
+}  
+.navrig a.activer {
+    background-color: black;
+    color: #e2daff;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+/* bagian Konten */
+
+.contten {  
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 1px;
+    justify-content: center;
+    padding: 5% 13% 1% 13%;
+}
+div.borad{
+    border-radius: 10px;
+    margin: 1% 1%;
+}
+.cardtent1 {    
+    padding: 1% 3%;
+    background-color: #F0F0F0;
+}
+.cardtent2 {
+    position: sticky;  
+    top: 75px;
+    height:fit-content;
+    padding: 1% 3% 10% 3%;
+    background-color: #F0F0F0;
+}
+.reimg {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+a.postlink {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000000;
+}
+a.postlink:hover {
+    text-decoration: underline;
+    font-weight: bolder;
+    color: #5323ff;
+}
+
+.rectbtn a{
+    text-decoration: none;
+    color: white;
+    background-color: #000000;
+    border-style: none;
+    border-radius: 5px;
+    padding: 2px 1%;
+    text-align: center;
+    justify-content: center;
+}
+.rectbtn a:hover{
+    background-color: #5323ff;
+}
+
+.morbtn a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    color: white;
+    background-color: #000000;
+    border-style: none;
+    border-radius: 5px;
+    width: 100%;
+    padding: 3% 0;
+    text-align: center;
+    justify-content: center;
+}
+.morbtn a:hover{
+    background-color: #5323ff;
+}
+
+.iconlink{
+    display: flex;
+}
+.btnico {
+    color: white;
+    background-color: #000000;
+    border-radius: 6px;
+    padding: 10px 15px;
+    width: 100%;
+}
+.btnico:hover{
+    background-color: #5323ff;
+}
+
+.tabsize {
+    height: 85px;
+}
+.tabsize2 {
+    height: 50px;    
+}
+td.tabheadfont{
+    padding-bottom: 55px;
+}
+td.tabheadfont2{
+    padding-bottom: 38px;
+}
+.warn {
+    font-size: 11px;
+    pointer-events: none;
+}
+
+.rectbtn input{
+    text-decoration: none;
+    color: white;
+    background-color: #000000;
+    border-style: none;
+    border-radius: 5px;
+    padding: 2%;
+    text-align: center;
+    justify-content: center;
+}
+.rectbtn input:hover{
+    background-color: #5323ff;
+}
+
+a.kumplink {
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #000000;
+}
+a.kumplink:hover {
+    text-decoration: underline;
+    font-weight: bolder;
+    color: #5323ff;
+}
+
+.lengkapbtn td.rectbtn{
+text-align: right;
+}

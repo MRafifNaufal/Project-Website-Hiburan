@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Upload Post</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <section class="navbar">
+        <div class="contnav">
+            <a href="index.html">Project Hiburan</a>
+            <div class="navrig">
+                <ul>
+                    <li><a href="index.html">Postingan </a></li>
+                    <span class="no">|</span>
+                    <li><a href="kumpulan.html">Kumpostan</a></li>
+                    <span class="no">|</span>
+                    <li><a href="#">About Us</a></li>
+                    <span class="no">|</span>
+                    <li><a href="" class="activer">Upload</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- konten -->
+    <section id="home">
+        <div class="contten">
+            <div class="borad cardtent1">
+
+                <!-- header -->
+                <h3>Submit postingan</h3>
+                <!-- submit form -->
+                <form action="" method="post" name="upload">
+                    <table>
+                        <!-- upload file -->
+                        <tr>
+                            <td width="100" class="tabheadfont2">File</td>
+                            <td>
+                                : <input type="file" id="file" accept="image/png, image/jpeg, image/jpg"><br>
+                                <p class="warn">*hanya upload file'.png', '.jpg' and '.jpeg'.</p>
+                            </td>
+                        </tr>
+                        <!-- kasih judul -->
+                        <tr class="tabsize">
+                            <td class="tabheadfont">Judul</td>
+                            <td>: <input id="nmjdl" type="text" size="30"><br>
+                                <p class="warn">(disarankan) hindari judul gambar pada postingan yang terlalu singkat.
+                                </p>
+                            </td>
+                        </tr>
+                        <!-- nama yang upload -->
+                        <tr class="tabsize2">
+                            <td class="tabheadfont2">Uploader</td>
+                            <td>: <input id="uploader" type="text" size="30"><br>
+                                <p class="warn">*username pengupload</p>
+                            </td>
+                        </tr>
+                        <!-- sumber gambar -->
+                        <tr class="tabsize">
+                            <td class="tabheadfont">Sumber</td>
+                            <td>: <input id="sumber" type="text" size="30"><br>
+                                <p class="warn">(disarankan) beri sumber original postingan jika bukan milik sendiri</p>
+                            </td>
+                        </tr>
+                        <!-- kasih kategori -->
+                        <tr class="tabsize2">
+                            <td>Kategori</td>
+                            <td>: <select id="katgori">
+                                    <!-- input kategori php disini -->
+                                </select><br>
+                                <p class="warn">(disarankan) pilih kategori yang sesuai</p>
+                            </td>
+                        </tr>
+                        <!-- submit button -->
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td class="rectbtn"><input type="submit" name="Input" value="Gaskan">&nbsp;
+                                <input type="reset" name="reset" value="Apus">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+                <hr>
+                <!-- Rules -->
+                <h3>Peraturan</h3>
+                <p><b>Respect Originalitas dan Kreatifitas,</b> Gunakanlah <b>Google Images</b> untuk mencari siapa
+                    pemilik postingan yang asli.
+                    Jenis-jenisPostinganyang dilarang (tapi tidak terbatas pada):
+                <ol>
+                    <li>Postingan yang berisikan penghinaan, secara eksplisit maupun implisit, terhadap unsur suku,
+                        agama, ras, dan atau golongan.</li>
+                    <li>Postingan dengan nuansa pornografi, seperti:memampangkan foto/gambar/kartun telanjang atau
+                        setengah telanjang (memperlihatkan alat kelamin manusia atau puting wanita, baik secara jelas
+                        ataupun yang tersamarkan).</li>
+                    <li>Postingan dengan tujuan untuk meminta atau mengajak untuk melakukan upvote (gud) maupun downvote
+                        (meh) terhadap postingan tertentu. <b>Contoh : jika bla bla bla.. maka pencet gud,.. jika bla
+                            bla bla.. pencet meh</b>, atau modus minta upvote (gud) seperti jika vote banyak dan masuk
+                        halaman depan atau legend akan dilanjut.</li>
+                    <li>Postingan yang berisikan caci maki atau sumpah serapah tak bermakna, termasuk postingan yang
+                        berisi <b>flamming/provokasi terhadap individu/kelompok/unsur SARA/organisasi/komunitas (yg bisa
+                            menggugah emosi/amarah pembaca)</b>.</li>
+                    <li>Postingan yang bertemakan agama/dakwah silakan berkunjung ke ruang Spiritual di kaskus gan.</li>
+                    <li>Demi keamanan dan privasi, dilarang juga untuk membuat postingan yang bertujuan untuk
+                        menyebarluaskan identitas personal, gunakan sensorship dengan baik.</li>
+                    <li>Postingan dengan nuansa <b>spam/junk/sampah/ blank post</b> yang tak berarti, termasuk melakukan
+                        pengulangan postingan terus menerus(upload,delete,upload dst terhadap postingan yang sama).</li>
+                    <li>Menggunakan watermark situs, serta watermark/signature yang besar dan berlebihan (berupa gambar)
+                        , <b>memberi watermak/signature terhadap karya orang lain, signature hanya boleh untuk artwork
+                            original sendiri, dan dicantumkan dengan text kecil, satu baris, dilarang memasang
+                            watermark/signature sebesar satu panel</b>.</li>
+                    <li>Postingan berupa foto teman atau user yang lain tanpa seijin yang bersangkutan</li>
+                    <li>Postingan yang mengandung disturbing picture.</li>
+                    <li><b>Serta postingan postingan yang berpotensi melanggar UU ITE</b></li>
+                </ol>
+                </p>
+            </div>
+
+            <!-- bagian kanan -->
+            <div class="borad cardtent2">
+                <p>Lihat post lainnya</p>
+                <a class="postlink" href="#">Aowkwkwkk nominasi terus menang kaga </a><br>
+                <hr>
+                <a class="postlink" href="#">Hanya sebuah map di area gelora bung tomo</a><br>
+                <hr>
+                <a class="postlink" href="#">Dihajar tugas</a><br>
+                <hr>
+                <a class="postlink" href="#">Apalah budak yang satu ini lakukan</a><br>
+                <hr>
+
+                <!-- liat selengkapnya -->
+                <div class="morbtn">
+                    <a href="kumpulan.html"> Selengkapnya</a>
+                </div>
+
+                <!-- link sosial media -->
+                <p>Sosmed</p>
+                <div class="icolink">
+                    <a class="btnico" href="https://twitter.com/">
+                        <i class="bi bi-twitter-x"></i></a>
+                    <a class="btnico" href="https://facebook.com/">
+                        <i class="bi bi-facebook"></i></a>
+                    <a class="btnico" href="https://www.instagram.com/">
+                        <i class="bi bi-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
