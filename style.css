@@ -6,6 +6,9 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 /* navigasi bar  */
+section.navbar {
+    z-index: 999;
+}
 .navbar{
     position: fixed;
     display: flex;
